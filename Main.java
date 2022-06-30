@@ -1,3 +1,4 @@
+
 public class Main {
   public static void main(String[] args) {
 
@@ -35,7 +36,16 @@ public class Main {
     }
     System.out.println("---------");
 
+    //call method from other files
+    hello();
+    System.out.println("---------");
+
   }
+
+  private static void hello() {
+    System.out.println("This is a private method called inside the main class");
+  }
+  
 }
 
 
