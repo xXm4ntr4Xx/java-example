@@ -27,7 +27,7 @@ public class Main {
 
     // array of string
 
-    String[] names = {"tom","Sam","Lucas"};
+    String[] names = {"tom","Sam","Lucas"};//the size is immutable like tuple in typescript
 
     System.out.println("This is an array of string: " + names);//return the place in memory of the string
     for(String i: names){
