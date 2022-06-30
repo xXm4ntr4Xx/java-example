@@ -23,6 +23,18 @@ public class Main {
     int num3ToInt = (int) num3;
     System.out.println(num3ToInt);
     System.out.println("---------");
+
+
+    // array of string
+
+    String[] names = {"tom","Sam","Lucas"};
+
+    System.out.println("This is an array of string: " + names);//return the place in memory of the string
+    for(String i: names){
+      System.out.println(i);
+    }
+    System.out.println("---------");
+
   }
 }
 
