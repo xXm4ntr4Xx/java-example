@@ -36,7 +36,7 @@ public class Main {
     }
     System.out.println("---------");
 
-    //call method from other files
+    //call a method 
     hello();
     System.out.println("---------");
 
